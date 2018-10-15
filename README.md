@@ -51,7 +51,7 @@ Next, use the pip3 package manager to install the pipenv module
 sudo pip3 install pipenv
 ``` 
 
-After installing _pipenv_, the _pipenv install_ command can be used to install of the modules listed within the Pipfile contained in the directory.
+After installing _pipenv_, the _pipenv install_ command can be used to install the modules listed within the Pipfile contained in the directory.
 ```
 pipenv install 
 ```
