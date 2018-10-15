@@ -63,6 +63,7 @@ You can confirm that you have successfully activated the virtual environment if 
 ## Running
 Once you have confirmed that the virtual environment has been activated, use the following commands to launch the Flask service.
 ```
-FLASK_APP=main.py flask run --port=<desired port number>
+export FLASK_APP=app.py
+flask run 
 ```
 
