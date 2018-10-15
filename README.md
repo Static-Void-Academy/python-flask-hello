@@ -1,4 +1,8 @@
 # Python Flask Hello World Example
+[![CircleCI](https://circleci.com/gh/Static-Void-Academy/python-flask-hello.svg?style=svg&circle-token=db22b9ffaa6d80dccae5d024a2220a3274ba5b1f)](https://circleci.com/gh/Static-Void-Academy/python-flask-hello)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 This is the Static Void Academy example repository for a Hello World Python Flask web server. This is meant as a simple introduction to web servers.
 
 Find the companion article [here](???) and the companion YouTube video [here](???).
