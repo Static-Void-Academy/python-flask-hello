@@ -11,22 +11,16 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "Pipfile" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-      - run:
-          name: Install pipenv
-          command: pip install pipenv
+          - v1-cache-{{ checksum "Pipfile.lock" }}
+          - v1-cache-
       - run:
           name: Install Pipfile dependencies with pipenv
-          command: pipenv install
-      - run:
-          name: Activate virtual environment
-          command: pipenv shell
+          command: pipenv sync --dev
       - save_cache:
+          key: v1-cache-{{ checksum "Pipfile.lock" }}
           paths:
-            - ~/.local/share/virtualenvs/
-          key: v1-dependencies-{{ checksum "Pipfile" }}
+            - ~/.local
+            - ~/.cache
 
 workflows:
   version: 2
