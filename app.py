@@ -7,6 +7,11 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
+# Different Route
+@app.route("/test")
+def test():
+    return "Test different route"
+
 # Route with parameter in route
 # Variable must be passed to method
 @app.route("/test/<param>")
@@ -33,3 +38,4 @@ def default():
         return "Received POST Request"
     else:
         return "Received GET Request"
+
