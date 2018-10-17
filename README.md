@@ -56,16 +56,14 @@ After installing _pipenv_, the _pipenv install_ command can be used to install t
 pipenv install 
 ```
 
+## Running
 After installing the required dependencies, the virtual environment created by _pipenv_ during the installation must now be activated.
 
 ```
 pipenv shell
 ```
 
-You can confirm that you have successfully activated the virtual environment if the name of the project appears in parentheses to the left of the command line. 
-
-## Running
-Once you have confirmed that the virtual environment has been activated, use the following commands to launch the Flask service.
+You can confirm that you have successfully activated the virtual environment if the name of the project appears in parentheses to the left of the command line. Once you have confirmed that the virtual environment has been activated, use the following commands to launch the Flask service.
 ```
 export FLASK_APP=app.py
 flask run 
