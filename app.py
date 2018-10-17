@@ -18,11 +18,6 @@ def test():
 def param_test(param):
     return "Received: {}".format(param)
 
-# Route with type constraint on parameter
-@app.route("/test/square/<int:param>")
-def int_test(param):
-    return "Square of {} is {}".format(param, param * param)
-
 # Route with parameters passed as args
 # Example: /test/args?name=<name>&age=<age>
 @app.route("/test/args")
@@ -39,3 +34,12 @@ def default():
     else:
         return "Received GET Request"
 
+# Route with type constraint on parameter
+@app.route("/test/square/<int:param>")
+def int_test(param):
+    return "Square of {} is {}".format(param, param * param)
+ 
+# Route to three amigos
+@app.route("/three-amigos")
+def three_amigos():
+    return redirect(https://www.denverpost.com/2013/09/04/broncos-original-three-amigos-ride-again-living-on-in-nfl-history/, code = 302)
