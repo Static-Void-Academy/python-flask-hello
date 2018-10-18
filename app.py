@@ -42,4 +42,4 @@ def int_test(param):
 # Route to three amigos
 @app.route("/three-amigos")
 def three_amigos():
-    return redirect(https://www.denverpost.com/2013/09/04/broncos-original-three-amigos-ride-again-living-on-in-nfl-history/, code = 302)
+    return redirect("https://www.denverpost.com/2013/09/04/broncos-original-three-amigos-ride-again-living-on-in-nfl-history/", code = 302)
