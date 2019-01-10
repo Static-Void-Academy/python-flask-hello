@@ -5,7 +5,7 @@
 
 This is the Static Void Academy example repository for a Hello World Python Flask web server. This is meant as a simple introduction to web servers.
 
-Find the companion article [here](???) and the companion YouTube video [here](???).
+This tutorial has a [companion article](https://medium.com/static-void-academy/hello-world-in-python-flask-196fc71486ce) and a [YouTube video](https://www.youtube.com/watch?v=Ggr2BSF8bLA) which you may find useful. 
 
 ## Installation / Prerequisites
 You will need:
